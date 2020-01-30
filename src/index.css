@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-img {
+  background-image: url('./images/banner-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.call-sec {
+  background: transparent;
+  background-image: linear-gradient(#e84444, rgba(232,68,68,0.56));
+}
+button.text-uppercase.text-dark.btn.btn-outline-primary {
+  border-color: white;
+  background-color: white;
+  margin-top: 15px;
+}
